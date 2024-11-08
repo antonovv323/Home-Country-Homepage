@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Sofia Sans", sans-serif;
+    text-shadow: 0 0 10px black;
+}
+
+img {
+    width: 100px;
+    height: 99px;
+}
+
+#hero-section {
+    background-color: #ffffff;
+    padding: 75px;
+    border: 5px solid black;
+}
+
+#hero-title {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 8px 30px;
+    background-color: #00966e;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 0;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+#hero-subtitle {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #00966e;
+    box-shadow: 0 0 10px black;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#activities-section {
+    background-color: #00966e;
+    border-width: 0 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 10px 0 10px;
+}
+
+#activities-heading {
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+#underline {
+    border-bottom: 3px solid #ffffff;
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px black;
+}
+
+#activities-container {
+    display: flex;
+    padding: 10px 10px 0 10px;
+}
+
+#first-activity {
+    padding: 10px;
+}
+
+#second-activity {
+    padding: 10px;
+}
+
+#third-activity {
+    padding: 10px;
+}
+
+.activity-img {
+    border-width: 5px 0 5px 0;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+#guide-section {
+    background-color: #d62612;
+    border-width: 0 5px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+}
+
+#card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 400px;
+    height: 294px;
+    background-color: #00966e;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+#img-of-me {
+    width: 180px;
+    height: 248px;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+
+#guide-heading {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#guide-knowledge {
+    font-size: 18px;
+}
+
+#guide-name {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.underline-2 {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 10px black;
+}
+
