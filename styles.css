@@ -16,6 +16,12 @@ img {
     border: 5px solid black;
 }
 
+#hero-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #hero-title {
     border: 3px solid black;
     border-radius: 10px;
@@ -23,9 +29,6 @@ img {
     background-color: #00966e;
     box-shadow: 0 0 10px black;
     margin-bottom: 0;
-    width: 250px;
-    margin: 0 auto;
-    
 }
 
 #hero-subtitle {
@@ -131,3 +134,34 @@ img {
     box-shadow: 0 0 10px black;
 }
 
+@media (orientation: portrait) and (max-width: 1024px) {
+    /* Стилове за вертикална ориентация на почти всички мобилни устройства */
+    #underline {
+        width: 350px
+    }
+
+    #activities-container {
+        display: block;
+    }
+
+    #first-activity {
+        padding: 5px;
+    }
+    
+    #second-activity {
+        padding: 5px;
+    }
+    
+    #third-activity {
+        padding: 5px;
+    }
+    
+    #card-container {
+        width: 350px; 
+    }
+    
+    #img-of-me {
+        width: 140px;
+        height: 230px;
+    }
+  }
